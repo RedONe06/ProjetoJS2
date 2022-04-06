@@ -1,0 +1,38 @@
+h2{
+    text-align: center;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-
+    color: darkblue;
+    margin: 0;
+    width: 50%;
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+    width: 50%;
+
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2pc solid black;
+    margin: 10px auto;
+}
+.primeiro{
+    margin-top:10px;
+}
+.ultimo{
+    margin-bottom: 10px;
+}

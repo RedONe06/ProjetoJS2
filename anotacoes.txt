@@ -1,0 +1,6 @@
+var é uma variavel global
+document.write escreve no documento
+" formato de concatenação
+' formato de concatenação
+` aceita o template string -----> ${} (n precisa de concatenação)
+comando prompt gera string
