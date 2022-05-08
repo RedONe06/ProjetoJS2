@@ -16,42 +16,33 @@
             align-items: center;
             box-shadow: 3px 3px 5px grey;
         }
-
         .nome,
         .anoNascimento,
         .calcular {
             margin: 10px;
-
         }
-
         .nome,
         .anoNascimento {
             border-bottom-left-radius: 10px;
             border-top-right-radius: 10px;
-
             border: 1px solid grey;
             padding: 5px;
             box-shadow: 3px 3px 5px grey;
         }
-
         .formulario {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-weight: bold;
         }
-
         label {
             background-color: blue;
             color: aliceblue;
             width: 5px;
             padding-left: 10px;
             padding-right: 10px;
-            /* border: 1px solid black; */
         }
-
         input {
             margin-top: 5px;
         }
-
         .botao {
             background-color: blue;
             color: aliceblue;
@@ -64,18 +55,20 @@
             align-items: center;
         }
         @media only screen and (max-width: 400px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
+            body {
+                background-color: lightblue;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="container2">
+
         <form action="#">
+
             <div class="formulario">
+
                 <div class="nome">
                     <label for="nome">NOME <br></label><input type="text" name="inputNome" id="nome">
                 </div>
@@ -87,6 +80,7 @@
                     <input type="button" value="calcular" class="botao">
                 </div>
             </div>
+
             <script src="./js/algoritmo3.js"></script>
         </form>
     </div>
