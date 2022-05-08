@@ -3,7 +3,6 @@ h2{
     padding: 0;
     border: 1px solid black;
     border-radius: 5px;
-    border-
     color: darkblue;
     margin: 0;
     width: 50%;
@@ -15,7 +14,6 @@ h3{
     padding: 0;
     margin: 10px 0 0 0;
     width: 50%;
-
 }
 .informacoes{
     display: flex;
