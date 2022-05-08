@@ -1,31 +1,3 @@
-/* Crie um programa que leia o nome, 
-o número de aulas de uma determinada
-discilina (Ex: Programação: 80), em 
-seguida você deverá informar o número 
-de faltas do aluno. Você também eeve informar
-o nome do aluno e suas 2 notas. O 
-programa deverá calcular a frequência 
-deste aluno e também a média aritmética.
-Ao final o programa deverá mostrar o
-nome, a média e a resposta, se o mesmo
-está "Aprovado" ou "Reprovado". Para 
-ser aprovado o aluno deve ter media 
-maior que 6 e frequencia maior que 75%, 
-caso contrario, o aluno está reprovado.*/
-
-/* Entrada:
-nome da discplina
-aulas na disciplina
-nome do aluno
-n1
-n2
-faltas do aluno
-
-Saída:
-% Frequencia
-media
-conclusao */
-
 var nomeDisciplina, aulasDisciplina, nomeAluno, n1, n2, faltasAluno, resp, frequencia
 
 nomeDisciplina = prompt("Informe o nome da disciplina: ")
